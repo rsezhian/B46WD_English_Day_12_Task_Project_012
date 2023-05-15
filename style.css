@@ -1,0 +1,93 @@
+* {
+  margin: 5px;
+}
+
+h1 {
+  margin-bottom: 40px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form > input {
+  width: 400px;
+  display: inline;
+}
+
+.form > .input {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.label {
+  display: flex;
+  column-gap: 205px;
+}
+
+table {
+  font-size: 16px;
+}
+
+th {
+  text-align: center;
+}
+
+td {
+  text-align: center;
+}
+
+.table td:first-child {
+  text-align: left;
+  width: 150px;
+}
+
+tr:nth-child(even) {
+  background-color: lightgrey;
+}
+
+.button {
+  border: none;
+  color: #333;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.span > span {
+  font-size: 24px;
+  text-align: left;
+  margin-left: -5px;
+  color: orange;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.star {
+  color: orangered;
+}
+
+.label {
+  font-weight: bold;
+}
+
+div label:first-child {
+  font-weight: bold;
+}
+
+.experience {
+  margin-left: 0px;
+}
+
+#email {
+  font-weight: bold;
+}
